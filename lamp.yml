@@ -33,5 +33,5 @@
        state: present
     - name: copy of info.php   
       copy:
-        src: php
+        src: info.php
         dest: /var/www/html/info.php 
