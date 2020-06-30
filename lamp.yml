@@ -6,7 +6,7 @@
       apt: 
        name: apache2
        state: present
-       update_cach: yes
+       update_cache: yes
     - name: i want istall php
       apt:
        name: php
@@ -36,4 +36,3 @@
       copy:
         src: php
         dest: /var/www/html/info.php 
-        
