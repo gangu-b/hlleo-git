@@ -27,7 +27,7 @@
       service: 
         name: apache2
         enable: yes
-        state: restart   
+        state: restarted   
     - name: installing php-cil
       apt: 
        name: php-cli
